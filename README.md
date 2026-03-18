@@ -1,5 +1,5 @@
-# Donga University CSE (2026~)
+# Dong-A University CSE (2026~)
 
 ## 📚 1-1
 - Python Programming
-- Physics
+- C/C++ Beginer Study (MLP, Dong-A University SW Club)
