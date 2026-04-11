@@ -1,6 +1,5 @@
 import random as rd
-answer = 0
-tryNum = 0
+answer, tryNum = 0, 0
 
 quiz = rd.randint(1,100)
 
