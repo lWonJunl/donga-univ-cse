@@ -10,7 +10,7 @@ def clickNext():
     num += 1
     if num>8:
         num=0
-    photo = PhotoImage(file="C:/Users/user/Github/DongA_Univ_CSE/1-1/Python_Programming/Week 9/gif/ch10_Image/"+fameList[num])
+    photo = PhotoImage(file="gif/ch10_Image/"+fameList[num])
     pLabel.configure(image = photo)
     pLabel.image = photo
 
@@ -19,7 +19,7 @@ def clickPrev():
     num -= 1
     if num<=0:
         num=8
-    photo = PhotoImage(file="C:/Users/user/Github/DongA_Univ_CSE/1-1/Python_Programming/Week 9/gif/ch10_Image/"+fameList[num])
+    photo = PhotoImage(file="gif/ch10_Image/"+fameList[num])
     pLabel.configure(image = photo)
     pLabel.image = photo
 
@@ -30,7 +30,7 @@ window.title("사진 앨범 보기")
 btnPrev = Button(window, text="<< 이전", command=clickPrev)
 btnNext = Button(window, text="다음 >>", command=clickNext)
 
-photo = PhotoImage(file="C:/Users/user/Github/DongA_Univ_CSE/1-1/Python_Programming/Week 9/gif/ch10_Image/"+fameList[num])
+photo = PhotoImage(file="gif/ch10_Image/"+fameList[num])
 pLabel = Label(window, image=photo)
 
 btnPrev.place(x=250, y=10)

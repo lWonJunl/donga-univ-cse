@@ -2,7 +2,7 @@ from tkinter import *
 from tkinter import messagebox
 
 window = Tk()
-window.title(("2653572"))
+window.title(("학번"))
 window.resizable(width=False, height=False)
 
 def myFunc():
@@ -28,7 +28,7 @@ label1 = Label(window, text = "COOKBOOK ~~~ Python을")
 label2 = Label(window, text = "열심히", font = ("궁서체", 30), fg="blue")
 label3 = Label(window, text = "공부 중입니다.", bg="magenta", width=20, height=5, anchor=SE)
 
-photo = PhotoImage(file="C:/Users/user/Github/DongA_Univ_CSE/1-1/Python_Programming/Week 9/gif/ch10_Image/dog.gif")
+photo = PhotoImage(file="gif/ch10_Image/dog.gif")
 label4 = Label(window, image=photo)
 
 button1 = Button(window, text="파이썬 종료", fg="red", command=quit)
