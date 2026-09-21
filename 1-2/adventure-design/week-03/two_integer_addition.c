@@ -12,22 +12,11 @@ int main() {
     char op = ' ';
 
     printf("[사칙연산 프로그램]\n숫자1 입력 : ");
-    if (scanf(" %d", &num1) != 1) {
-        printf("숫자 입력 오류.");
-        return 1;
-    }
-
+    scanf(" %d", &num1);
     printf("연산자 입력 : ");
-    if (scanf(" %c", &op) != 1) {
-        printf("연산자 입력 오류.");
-        return 1;
-    }
-
+    scanf(" %c", &op);
     printf("숫자2 입력 : ");
-    if (scanf(" %d", &num2) != 1) {
-        printf("숫자 입력 오류.");
-        return 1;
-    }
+    scanf(" %d", &num2);
 
     if (op == '+') {
         reno = num1 + num2;
@@ -41,11 +30,6 @@ int main() {
         reno = num1 % num2;
     } else {
         printf("연산자 입력 오류. 옳은 연산자를 입력해 주세요.");
-        return 1;
-    }
-
-    if ((op == '/' || op == '%') && num2 == 0) {
-        printf("0으로 나눌 수 없습니다.");
         return 1;
     }
 
