@@ -1,10 +1,3 @@
-/*
-    개발자 : 최원준
-    날  짜 : 26.9.21.
-    주  제 : 두 정수를 입력받아 연산 결과 출력
-*/
-//#define _CRT_SECURE_NO_WARNINGS
-
 #include <stdio.h>
 
 int main() {
