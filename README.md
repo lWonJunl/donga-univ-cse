@@ -33,9 +33,9 @@
 
 | Course | Type | Main Contents | Link |
 | :-- | :-- | :-- | :-- |
-| LinuxSystem | 전공선택 | Linux 명령어와 수업별 실습 기록 | [README](1-2/linux-system) |
-| 코딩의기초와문제해결 | 기초과학및수학 | C 언어 수업 기록 | [README](1-2/coding-basics-and-problem-solving) |
-| 창의공학설계(AdventureDesign) | 전공선택 | C 언어 수업 기록 | [README](1-2/adventure-design) |
+| LinuxSystem | 전공선택 | 사용자·권한 관리, WSLg 실습, Linux 파일·디렉터리 명령과 `vi` 편집 | [README](1-2/linux-system) |
+| 코딩의기초와문제해결 | 기초과학및수학 | C 프로그램 구조, 자료형, 표준 입출력과 서식 지정 | [README](1-2/coding-basics-and-problem-solving) |
+| 창의공학설계(AdventureDesign) | 전공선택 | 프로그래밍 기초 이론, C 자료형·입출력·연산과 Chapter 퀴즈 | [README](1-2/adventure-design) |
 
 [1학년 2학기 전체 기록](1-2)
 
