@@ -3,9 +3,6 @@
 
 int main() {
     int won = 1000000;
-    double dollar = 0;
-    dollar = won / EXCHANGE_RATE;
-
-    printf("%d 원 => %lf 달러", won, dollar);
+    printf("%d 원 => %lf 달러", won, won / EXCHANGE_RATE);
     return 0;
 }
