@@ -20,9 +20,9 @@ LinuxSystem, 코딩의기초와문제해결, 창의공학설계(AdventureDesign)
 
 | Course | Type | Main Contents | Link |
 | :-- | :-- | :-- | :-- |
-| LinuxSystem | 전공선택 | 사용자·권한 관리, WSLg, 파일·디렉터리 명령과 링크·접근권한 실습 | [README](linux-system) |
-| 코딩의기초와문제해결 | 기초과학및수학 | C 프로그램 구조, 자료형, 표준 입출력과 서식 지정 | [README](coding-basics-and-problem-solving) |
-| 창의공학설계(AdventureDesign) | 전공선택 | 프로그래밍 기초 이론, C 입출력·연산·조건문과 Chapter 퀴즈 | [README](adventure-design) |
+| LinuxSystem | 전공선택 | 사용자·권한 관리, WSLg, 파일·링크·접근권한, 쉘 입출력과 작업 제어 | [README](linux-system) |
+| 코딩의기초와문제해결 | 기초과학및수학 | C 표준 입출력, 자료형·상수, 형 변환과 정수 범위 실습 | [README](coding-basics-and-problem-solving) |
+| 창의공학설계(AdventureDesign) | 전공선택 | C 자료형·입출력·연산·조건문과 Chapter 퀴즈 | [README](adventure-design) |
 
 <br>
 
