@@ -6,6 +6,6 @@ int main() {
     printf("문자입력: ");
     scanf(" %c", &text);
 
-    printf("%c %#o %d %#x", text, (unsigned int)text, text, (unsigned int)text);
+    printf("%c %#o %d %#x", text, text, text, text);
     return 0;
 }

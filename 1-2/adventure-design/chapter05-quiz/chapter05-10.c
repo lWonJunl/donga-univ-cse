@@ -3,17 +3,10 @@
 
 int main(void)
 {
-    double a, b, c;
-    double discriminant;
-    double root1, root2;
-    double check1, check2;
-
-    scanf("%lf %lf %lf", &a, &b, &c);
-
-    if (a == 0) {
-        printf("2차방정식의 계수 a는 0이 될 수 없습니다.\n");
-        return 1;
-    }
+    int a = 2, b = 3, c = -4;
+    double discriminant = 0;
+    double solution1 = 0, solution2 = 0;
+    double check1 = 0, check2 = 0;
 
     discriminant = b * b - 4 * a * c;
 
@@ -22,15 +15,15 @@ int main(void)
         return 0;
     }
 
-    root1 = (-b + sqrt(discriminant)) / (2 * a);
-    root2 = (-b - sqrt(discriminant)) / (2 * a);
+    solution1 = (-b + sqrt(discriminant)) / (2 * a);
+    solution2 = (-b - sqrt(discriminant)) / (2 * a);
 
-    check1 = a * root1 * root1 + b * root1 + c;
-    check2 = a * root2 * root2 + b * root2 + c;
+    check1 = a * solution1 * solution1 + b * solution1 + c;
+    check2 = a * solution2 * solution2 + b * solution2 + c;
 
-    printf("해1 : %.3f\n", root1);
+    printf("해1 : %.3f\n", solution1);
     printf("검증 계산 : %.3f\n", check1);
-    printf("해2 : %.3f\n", root2);
+    printf("해2 : %.3f\n", solution2);
     printf("검증계산 : %.3f\n", check2);
 
     return 0;

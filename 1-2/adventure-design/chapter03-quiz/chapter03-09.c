@@ -1,9 +1,6 @@
 #include <stdio.h>
 
-void unitConvert(int km, double mile, double mileConversion) {
-    mile = km * mileConversion;
-    printf("%3d(km): %.3lf(mile)\n", km, mile);
-}
+void unitConvert(int km, double mile, double mileConversion);
 
 int main() {
     const double mileConversion = 0.6213721;
@@ -23,4 +20,9 @@ int main() {
     unitConvert(km, mile, mileConversion);
 
     return 0;
+}
+
+void unitConvert(int km, double mile, double mileConversion) {
+    mile = km * mileConversion;
+    printf("%3d(km): %.3lf(mile)\n", km, mile);
 }

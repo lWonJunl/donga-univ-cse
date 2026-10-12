@@ -3,10 +3,10 @@
 
 int main(void)
 {
-    const double principal = 1000000.0;
+    int principal = 1000000;
     const double interest_rate = 0.045;
-    int years;
-    double total_amount;
+    int years = 0;
+    double total_amount = 0;
 
     printf("예치 기간 입력(년) >> ");
     scanf("%d", &years);

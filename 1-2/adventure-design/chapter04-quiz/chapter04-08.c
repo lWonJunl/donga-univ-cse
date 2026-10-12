@@ -7,6 +7,6 @@ int main() {
     text = getchar();
 
     putchar(text);
-    printf("\n%d %#o %#x", text, (unsigned int)text, (unsigned int)text);
+    printf("\n%d %#o %#x", text, text, text);
     return 0;
 }
