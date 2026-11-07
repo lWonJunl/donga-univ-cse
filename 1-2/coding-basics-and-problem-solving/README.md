@@ -2,7 +2,7 @@
 
 > 2026학년도 2학기에 수강하는 코딩의기초와문제해결 기초과학및수학 과목의 C 언어 수업 기록입니다.
 
-C 프로그램의 기본 구조와 표준 입출력, 자료형·상수, 형 변환과 정수 범위를 예제 코드로 학습합니다.
+C 프로그램의 기본 구조와 표준 입출력부터 자료형·상수, 연산자, 포인터 기초, 조건문과 반복문까지 예제 코드로 학습합니다.
 
 <br>
 
@@ -13,8 +13,8 @@ C 프로그램의 기본 구조와 표준 입출력, 자료형·상수, 형 변�
 | **Type** | 기초과학및수학 |
 | **Period** | 2026학년도 2학기 |
 | **Language** | C |
-| **Recorded Weeks** | 2개 |
-| **Source Files** | 13개 |
+| **Recorded Weeks** | 5개 |
+| **Source Files** | 51개 |
 
 <br>
 
@@ -32,6 +32,12 @@ scanf를 이용한 표준 입력
 자료형 크기·상수와 형 변환
         ↓
 정수 오버플로·언더플로
+        ↓
+연산자와 포인터 기초
+        ↓
+if·switch 조건문
+        ↓
+for·while 반복문과 제어문
 ```
 
 <br>
@@ -42,6 +48,9 @@ scanf를 이용한 표준 입력
 | :--: | :-- | :-- | --: |
 | [03](week-03) | C 표준 입출력과 자료형 | `printf`, `scanf`, 서식 지정, 덧셈 | 6 |
 | [05](week-05) | 자료형·상수와 정수 범위 | `sizeof`, `const`, `#define`, 형 변환, 오버플로·언더플로 | 7 |
+| [07](week-07) | 연산자와 포인터 | 산술·대입·증감·논리·비트 연산, 포인터 | 15 |
+| [09](week-09) | 조건문 응용 | 부호·학점·연령별 요금 판정, 문자 변환, `switch` | 8 |
+| [10](week-10) | 반복문과 제어문 | 누적 합, 구구단, 입력 반복, `break`·`continue` | 15 |
 
 <br>
 
@@ -102,6 +111,38 @@ scanf를 이용한 표준 입력
 - [정수 오버플로](week-05/integer-overflow.c)
 - [정수 언더플로](week-05/integer-underflow.c)
 
+### 7. 연산자와 포인터 기초
+
+7주차에는 산술·대입·증감·논리·비트 연산과 연산자 우선순위, 실수 비교를 실습했습니다. 포인터로 변수의 주소와 값을 확인하고 값을 변경하는 예제도 작성했습니다.
+
+대표 실습:
+
+- [산술 연산](week-07/ex04_01.c)
+- [논리 연산](week-07/ex04_08.c)
+- [비트 연산](week-07/ex04_12.c)
+- [포인터 기초](week-07/ex04_14.c)
+
+### 8. 조건문 응용
+
+9주차에는 `if`, `else if`, `switch`를 사용해 입력값에 따른 학점·연령별 요금·정수 부호를 구분하고 문자 변환과 자판기 상태를 표현했습니다.
+
+대표 실습:
+
+- [점수별 학점 판정](week-09/score-to-grade.c)
+- [나이별 요금](week-09/age-based-fee.c)
+- [자판기 상태](week-09/vending-machine-state.c)
+
+### 9. 반복문과 제어문
+
+10주차에는 `for`, `while`, `do while` 반복문으로 수열·합계·구구단을 출력하고, `break`와 `continue`로 반복 흐름을 제어했습니다.
+
+대표 실습:
+
+- [입력 횟수만큼 반복](week-10/repeat-count-times.c)
+- [점수를 반복 입력해 학점 판정](week-10/repeated-score-to-grade.c)
+- [EOF까지 입력한 수의 합](week-10/sum-until-eof.c)
+- [while 반복문으로 내림차순 출력](week-10/descending-numbers-while.c)
+
 <br>
 
 ## 🗃️ Source Files
@@ -121,6 +162,9 @@ scanf를 이용한 표준 입력
 | [`implicit-type-conversion.c`](week-05/implicit-type-conversion.c) | 암시적 형 변환 |
 | [`integer-overflow.c`](week-05/integer-overflow.c) | 정수 경계값의 덧셈 |
 | [`integer-underflow.c`](week-05/integer-underflow.c) | 정수 경계값의 뺄셈 |
+| [`week-07/`](week-07) | 연산자와 포인터 예제 15개 |
+| [`week-09/`](week-09) | 조건문 응용 예제 8개 |
+| [`week-10/`](week-10) | 반복문과 제어문 예제 15개 |
 
 <br>
 
@@ -150,6 +194,7 @@ gcc week-03/hello-world.c -o hello-world
 | :-- | :-- |
 | `week-NN/` | 주차별 실습 디렉터리 |
 | `topic-description.c` | 코드의 핵심 내용이나 기능 |
+| `exNN_NN.c` | 교재 예제 번호 |
 
 <br>
 

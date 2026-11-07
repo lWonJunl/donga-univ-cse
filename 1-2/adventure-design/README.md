@@ -2,7 +2,7 @@
 
 > 2026학년도 2학기에 수강하는 창의공학설계(AdventureDesign) 전공선택 과목의 C 언어 실습과 Chapter별 퀴즈 기록입니다.
 
-C 자료형과 표준 입출력, 연산과 조건문을 실습하고 Chapter별 퀴즈에 적용합니다.
+C 자료형과 표준 입출력, 조건문·반복문·배열을 실습하고 Chapter별 퀴즈에 적용합니다.
 
 <br>
 
@@ -13,9 +13,9 @@ C 자료형과 표준 입출력, 연산과 조건문을 실습하고 Chapter별 
 | **Type** | 전공선택 |
 | **Period** | 2026학년도 2학기 |
 | **Language** | C |
-| **Recorded Weeks** | 2개 |
-| **Source Files** | 16개 |
-| **Quiz Files** | 9개 |
+| **Recorded Weeks** | 4개 |
+| **Source Files** | 38개 |
+| **Quiz Files** | 21개 |
 
 <br>
 
@@ -28,7 +28,9 @@ printf·scanf와 산술 연산
         ↓
 논리 연산과 if·switch·삼항 연산자
         ↓
-Chapter 03~05 퀴즈
+반복문과 배열·주소 전달
+        ↓
+Chapter 03~07 퀴즈
 ```
 
 <br>
@@ -39,9 +41,13 @@ Chapter 03~05 퀴즈
 | :--: | :-- | :-- | --: |
 | [Week 03](week-03) | C 자료형과 표준 입출력 | 정수·실수·문자 입력, ASCII 코드, 사칙연산 | 4 |
 | [Week 04](week-04) | 연산자와 조건문 | 산술·논리 연산, if·switch·삼항 연산자, 홀짝 판별 | 6 |
+| [Week 06](week-06) | 조건문과 반복문 | 점수 판정, 합계, `for`·`while`·`do while`, 구구단 | 4 |
+| [Week 09](week-09) | 배열과 주소 전달 | 배열 채우기·행열 합, 값과 주소 전달 비교 | 3 |
 | [Chapter 03 Quiz](chapter03-quiz) | 자료형·변수·상수 | 8·16진수, km-mile 변환, 원-달러 환산 | 3 |
 | [Chapter 04 Quiz](chapter04-quiz) | 표준 입출력과 서식 | 문자 코드 출력, 면적 계산, `getchar`·`putchar` | 3 |
 | [Chapter 05 Quiz](chapter05-quiz) | 수식과 함수 | 구의 부피·표면적, 복리, 판별식에 따른 이차방정식 실근 계산 | 3 |
+| [Chapter 06 Quiz](chapter06-quiz) | 조건문 | 윤년, 월별 말일, 온도 변환 | 3 |
+| [Chapter 07 Quiz](chapter07-quiz) | 반복문과 함수 | 소수, 복리, 숫자 패턴, 온도 변환, 이진수 처리 | 9 |
 
 <br>
 
@@ -75,15 +81,28 @@ Chapter 03~05 퀴즈
 - [홀짝 판별](week-04/parity-conditions.c)
 - [switch의 분기 흐름](week-04/switch-fallthrough.c)
 
-### 4. Chapter 퀴즈
+### 4. 반복문과 배열
 
-Chapter 03~05 퀴즈에는 단위·환율 변환, 문자 코드와 출력 서식, 구의 부피·표면적, 복리와 이차방정식 실근 계산을 적용했습니다.
+6주차에는 반복문으로 합계와 구구단을 출력하고 `break`, `continue`를 사용했습니다. 9주차에는 배열의 행·열 채우기와 합계, 함수에 값과 주소를 전달하는 예제를 작성했습니다.
+
+대표 실습:
+
+- [반복문과 구구단](week-06/multiplication-table-loops.c)
+- [while과 do while 합계](week-06/while-loop-sums.c)
+- [배열의 행·열 합계](week-09/array-row-column-sums.c)
+- [값과 주소 전달](week-09/call-by-value-and-address.c)
+
+### 5. Chapter 퀴즈
+
+Chapter 03~07 퀴즈에는 단위·환율 변환, 출력 서식, 이차방정식 실근 계산, 윤년 판정, 소수 판별과 반복문·함수를 이용한 계산을 적용했습니다.
 
 대표 실습:
 
 - [Chapter 03 퀴즈](chapter03-quiz)
 - [Chapter 04 퀴즈](chapter04-quiz)
 - [Chapter 05 퀴즈](chapter05-quiz)
+- [Chapter 06 퀴즈](chapter06-quiz)
+- [Chapter 07 퀴즈](chapter07-quiz)
 
 <br>
 
@@ -93,9 +112,13 @@ Chapter 03~05 퀴즈에는 단위·환율 변환, 문자 코드와 출력 서식
 | :-- | :-- |
 | [`week-03/`](week-03) | 자료형·입출력·사칙연산 실습 코드 4개 |
 | [`week-04/`](week-04) | 연산자와 조건문 실습 코드 6개 |
+| [`week-06/`](week-06) | 조건문과 반복문 실습 코드 4개 |
+| [`week-09/`](week-09) | 배열과 주소 전달 실습 코드 3개 |
 | [`chapter03-quiz/`](chapter03-quiz) | Chapter 03 퀴즈 코드 3개 |
 | [`chapter04-quiz/`](chapter04-quiz) | Chapter 04 퀴즈 코드 3개 |
 | [`chapter05-quiz/`](chapter05-quiz) | Chapter 05 퀴즈 코드 3개 |
+| [`chapter06-quiz/`](chapter06-quiz) | Chapter 06 퀴즈 코드 3개 |
+| [`chapter07-quiz/`](chapter07-quiz) | Chapter 07 퀴즈 코드 9개 |
 
 <br>
 
